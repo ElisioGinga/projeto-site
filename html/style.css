@@ -1,0 +1,116 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Colors */
+:root {
+    --main-color: #f8f9fa;
+    --main-bg-color: #f3f7f6;
+    --main-text-color: #fff;
+    --secondary-color: #ddd;
+    --hover-color: #555;
+}
+
+/* Base Styles */
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+header {
+    background-color: var(--main-color);
+    padding: 20px;
+}
+
+header h1 {
+    display: inline;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #444;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #ddd;
+}
+
+
+
+
+
+
